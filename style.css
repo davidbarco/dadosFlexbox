@@ -1,0 +1,69 @@
+body{
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.dado1,.dado2,.dado3,.dado4,.dado5,.dado6{
+    width: 150px;
+    height: 150px;
+    background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af19a1, #f127117e), url("https://dam.smashmexico.com.mx/wp-content/uploads/2018/08/spiderman-venom-videojuegos-marvel-playstation.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+
+    margin: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 0px 0px 5px 2px black;
+    cursor: pointer;
+}
+
+.dado1:hover,.dado2:hover, .dado3:hover, .dado4:hover, .dado5:hover, .dado6:hover{
+    background: #544a7d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.dado1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dado1 .uno,.dado2 .uno,.dado3 .uno,.dado4 .uno,.dado5 .uno,.dado6 .uno{
+    width: 20px;
+    background-color: black;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 2px 1px black;
+}
+.dado2, .dado3, .dado4, .dado5, .dado6{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.eldos, .dado3 .eldos {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+}
+
+.dado3 .tresDos, .dado5 .cinco{
+    justify-content: center;
+      display: flex;
+      flex-direction: column;
+}
+
+.primero{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
